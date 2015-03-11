@@ -15,7 +15,7 @@ gem 'fog-aws'
 gem 'figaro'
 gem 'fog'
 gem 'paperclip', '~> 4.2'
-gem 'aws-sdk', '~> 2.0.29'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   gem 'sqlite3'
